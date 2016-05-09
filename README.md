@@ -3,7 +3,7 @@ Scripts to set up the BeagleBone Green (or Black) for use with Grove sensors
 
 ## Before you start
 1. This guide (and the scripts within it) assumes you are running Debian 7.9 (Wheezy) for compatability with the AdaFruit_BBIO Library. As of 09/04/2016, this library does not fully support Debian 8.3 (Analog input didn't work). If you don't have Debian 7.9 installed on your BeagleBone, please install it. You can do so at https://beagleboard.org/latest-images
-3. Just about everything in this guide requires sudo. If a command doesn't work, try running it as sudo or root just to make sure. On Debian, pretty much and I/O operation requires root/sudo anyway, so you may as well log in as root. (Of course, great power -> great responsibility and all that. Be careful).
+3. Just about everything in this guide requires sudo. If a command doesn't work, try running it as sudo or root just to make sure. On Debian, pretty much any I/O operation requires root/sudo anyway, so you may as well log in as root. (Of course, great power -> great responsibility and all that. Be careful).
 
 ## Setting up your BeagleBone
 1. Power up your beaglebone and connect it to the internet. You can do this by plugging in an Ethernet cable or using a supported WiFi dongle to connect to WiFi. If you use a dongle with pre-installed drivers, you won't need to install anything to make it work - you can just plug it in and connect. I used the Adafruit mini WiFi dongle: https://www.adafruit.com/products/814
