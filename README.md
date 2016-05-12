@@ -37,3 +37,6 @@ Where appropriate, the install scripts also contain some comments indicating whe
 
 ## Setting up a static IP
 If you want to SSH to your BeagleBone over a local area network instead of over the USB serial connection that is set up by default, you can do so by assigning your BeagleBone a static IP address. One way to do this is to bind the BeagleBone's MAC address to a static IP in your router's settings - speak to your sysadmin if you don't have access to the router yourself. Alternatively, you may be able to force your BeagleBone to use a static IP on your network by editing the settings in wicd-curses, but I couldn't make this work.
+
+Written by Daniel Smith for UNSW Australia and LaTrobe University.
+MIT license and all text above must be included in any redistribution
