@@ -18,7 +18,7 @@ Scripts to set up the BeagleBone Green (or Black) for use with Grove sensors
 
 2. Download this repository onto your BeagleBone.
  ```
- $ git clone https://github.com/danrs/bbg_setup_Grove
+ $ git clone https://github.com/modular-CAT/bbg_setup_Grove
  ```
  
 3. Execute the setup script (make sure you are connected to the internet first).
@@ -31,7 +31,7 @@ Scripts to set up the BeagleBone Green (or Black) for use with Grove sensors
 After running setup.sh, your BeagleBone is set up for Python I/O and ready to use. However, many Grove sensors have pre-existing python libraries which you can install to use them. Scripts for installing sensor libraries can be found in the "sensors" directory. To install a sensor library:
 ```
 $ cd sensors
-$ ./install_<sensor_name>.sh
+$ ./install_sensor_name.sh
 ```
 Where appropriate, the install scripts also contain some comments indicating where you can find information on how to use the sensor.
 

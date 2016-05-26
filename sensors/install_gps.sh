@@ -17,8 +17,7 @@
 #
 # If you are having issues with gpsd (as I did) you might want to try
 # my (very barebones) alternative:
-# https://github.com/danrs/python_uart_gps
+# https://github.com/modular-CAT/python_uart_gps
 
 sudo apt-get update
 sudo apt-get install gpsd gpsd-clients python-gps
-

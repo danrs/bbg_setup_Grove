@@ -6,6 +6,6 @@
 # For more information on usage, check out the examples and readme
 # in the repo installed by this script
 
-git clone https://github.com/danrs/python_i2c_mpu9250
+git clone https://github.com/modular-CAT/python_i2c_mpu9250
 cd python_i2c_mpu9250
 sudo python setup.py install

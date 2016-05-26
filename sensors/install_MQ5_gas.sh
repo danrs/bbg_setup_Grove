@@ -10,6 +10,6 @@
 # around the Adafruit_BBIO library. You can read about it here:
 # https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/adc
 
-git clone https://github.com/danrs/python_mq5_gas_sensor.git
+git clone https://github.com/modular-CAT/python_mq5_gas_sensor.git
 cd python_mq5_gas_sensor
 sudo python setup.py install
